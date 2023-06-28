@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* body{
+    overflow-x: hidden;
+} */
+.bg-nav-color { 
+    background: #153b67;
+    min-height: 100px;
+}
+.navbar-dark{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-item{
+    margin-right: 40px;
+}
+.logo{
+    width: 120px;
+    margin-left: 237px;
+}
+.last-item{
+    margin-right: 60px;
+}
+.active{
+    color: #FAC800!important;
+}
+.nav-item a:hover{
+    color: #FAC800;
+}
+.title-usjc{
+    margin: 3% 10%;
+    color: #002E60;
+    font-family: "Palanquin Dark", Sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 4px;
+}
+.divider{
+    display: block;
+    width: 24%;
+    height: 9px;
+    margin-top: -35px;
+    margin-left: 10%;
+    background-color: #153b67;
+    margin-bottom: 65px;
+}
+.divider-title-carreras{
+    display: block;
+    width: 24%;
+    height: 9px;
+    margin: auto;
+    background-color: #153b67;
+    margin-bottom: 65px;
+}
+.divider-card{
+    display: block;
+    width: 90%;
+    height: 5px;
+    background-color: #fff;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+.divider-card.blanca{
+    display: block;
+    width: 90%;
+    height: 5px;
+    background-color: #153b67;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+.card-blanca-cuerpo{
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon-card{
+    margin-left: 19px;
+}
+.title-card{
+    margin-top: 6px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: "Palanquin Dark", Sans-serif;
+}
+.body-card{
+    font-size: 18px;
+    width: 91%;
+    padding: 19px;
+    font-family: "Roboto", Sans-serif;
+    min-height: 300px;
+}
+.card{
+    background: #002e60;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 65px;
+}
+.card-blanca{
+    background: #fff;
+    color: #444;
+    padding: 5px;
+    margin-bottom: 65px;
+    border-radius: 8px;
+}
+.card-blanca-titulo{
+    font-family: "Palanquin Dark", Sans-serif;
+    color: #002E60;
+    font-size: 24px;
+}
+.card-blanca-icon{
+    margin-left: -16px;
+    margin-top: -4px;
+}
+.titles{
+    font-family: "Palanquin Dark", Sans-serif;
+    color: #002E60;
+    font-size: 45px;
+    text-align: center;
+}
+
+.card-carrera-body{
+    position: absolute;
+    margin-top: -100px;
+}
+.card-carrera{
+    /* background: black; */
+    overflow: hidden;
+    margin-bottom: 60px;
+    height: 300px;
+}
+
+.card-carrera-title{
+    font-family: "Palanquin Dark", Sans-serif;
+    font-size: 24px;
+    width: 155px;
+    margin: -54px 0 0 27px;
+    /* margin-left: 23px;
+    margin-top: 67px; */
+}
+.card-carrera-icon{
+    /* margin-top: -120px;
+    margin-left: 25px; */
+    padding: 210px 0 90px 27px;
+
+}
+.card-carrera-title-2{
+    font-family: "Palanquin Dark", Sans-serif;
+    font-size: 28px;
+    width: 185px;
+    margin: 146px 0 0 37px;
+}
+.card-carrera-subtitle{
+    font-family: "Roboto", Sans-serif;
+    font-size: 19px;
+    width: 258px;
+    margin: 16px 0 0 37px;
+}
+.card-carrera-button{
+    font-family: "Roboto", Sans-serif;
+    font-size: 19px;
+    width: 258px;
+    margin: 36px 0 0 37px;
+}
+.card-carrera-button button{
+    font-size: 18px;
+    border-radius: 15px;
+    background: #002e60;
+    border: none;
+    height: 57px;
+    width: 156px;
+}
+.card-carrera-button button:hover{
+    background: #024185!important;
+}
+
+.card-carrera-icon-2{
+    /* margin-top: -120px;
+    margin-left: 25px; */
+    padding: 210px 0 90px 27px;
+
+}
+.hover-carrera{
+    width: 100%;
+    height: 300px;
+    /* background: red; */
+}
+
+.overlayimage{
+    background: #202020d1;
+}
+.overlayimageparallax{
+    background: #516f8fba;
+    height: 100%;
+}
+.overlayimage-2{
+    background: #5D542CCC;
+}
+.overlayimage-3{
+    background: #595c7a9c;
+}
+.card-1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+    transition: margin 1s;
+    border-bottom: 8px solid #0074f3;
+    
+}
+.card-2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: blue;
+    transition: margin 1.5s;
+}
+
+.card-1.conta{
+    background-image: url('https://www.usanjuandelacruz.ac.cr/wp-content/uploads/2020/11/San-Juan2.jpeg');
+    background-size: cover;
+}
+.card-2.conta{
+    background-image: url('https://www.usanjuandelacruz.ac.cr/wp-content/uploads/2020/11/San-Juan2.jpeg');
+    background-position: center;
+}
+.card-1.derecho{
+    background-image: url('https://www.usanjuandelacruz.ac.cr/wp-content/uploads/2020/11/San-Juan16.jpeg');
+    background-size: cover;
+}
+.card-2.derecho{
+    background-image: url('https://www.usanjuandelacruz.ac.cr/wp-content/uploads/2020/11/San-Juan16.jpeg');
+    background-position: center;
+}
+.card-1.admin{
+    background-image: url('https://www.usanjuandelacruz.ac.cr/wp-content/uploads/2020/11/San-Juan1.jpeg');
+    background-size: cover;
+}
+.card-2.admin{
+    background-image: url('https://www.usanjuandelacruz.ac.cr/wp-content/uploads/2020/11/San-Juan1.jpeg');
+    background-position: center;
+}
+.card-container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.parallax {
+    /* The image used */
+    background-image: url('https://www.usanjuandelacruz.ac.cr/wp-content/uploads/2020/11/San-Juan13.jpeg');
+  
+    /* Full height */
+    height: 570px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-azul{
+    min-height: 485px;
+    width: 100%;
+    background-color: #002E60;
+    margin-top: -48px;
+  }
+  .bg-blanco{
+    min-height: 595px;
+    width: 100%;
+  }
+  .bg-amarillo{
+    height: auto;
+    width: 100%;
+    background-color: #FBB307;
+    margin-top: 50px;
+  }
+  .historia-contenedor{
+    width: 75%;
+    min-height: 625px;
+    border: 5px solid #002E60;
+    margin-top: 100px!important;
+    padding-top: 35px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+  }
+  .precios{
+    width: 100%;
+    min-height: 345px;
+    border: 5px solid #002E60;
+    margin-top: 100px!important;
+    padding-top: 35px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    color:#002E60;
+  }
+  .title-precio{ 
+    font-family: "Roboto", Sans-serif;
+    font-size: 37px;
+    color:#002E60;
+  }
+  .subtitle-precio{ 
+    font-family: "Roboto", Sans-serif;
+    font-size: 24px;
+  }
+  .monto-precio{
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .ps-6 {
+    padding-left: 6rem!important;
+}
+.pe-6 {
+    padding-right: 6rem!important;
+}
+.mt-6 {
+    margin-top: 9rem!important;
+}
+.foto-rector img{
+    width: 100%;
+}
+.title-rector{
+    font-family: "Palanquin Dark", Sans-serif;
+    color: #FAC800;
+    font-size: 20px;
+    font-weight: 500;
+}
+.name-rector{
+    font-family: 'Roboto', Sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+}
+.description-rector{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.virtualidad-desc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.virtualidad-title{
+    font-size: 40px;
+    font-family: "Palanquin Dark", Sans-serif;
+}
+@media (min-width: 1250px) {
+    .header-img{
+        width: 80%;
+        margin-top: 40px;
+    }
+  }
+
+
+  #gallery{
+    -webkit-column-count:4;
+    -moz-column-count:4;
+    column-count:4;
+    
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  @media (max-width:1200px){
+    #gallery{
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
+      
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+      
+  }
+  }
+  @media (max-width:800px){
+    #gallery{
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+      
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  }
+  @media (max-width:600px){
+    #gallery{
+    -webkit-column-count:1;
+    -moz-column-count:1;
+    column-count:1;
+  }  
+  }
+  #gallery img,#gallery iframe {
+    width:100%;
+    height:auto;
+    margin: 4% auto;
+    box-shadow:-3px 5px 15px #000;
+    /* cursor: pointer; */
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .pb-6 {
+    padding-bottom: 7rem!important;
+}
+.contactenos-img{
+    height: 526px;
+    margin-top: 110px!important;
+    background-image: url(https://images.pexels.com/photos/2265488/pexels-photo-2265488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.contactenos-container{
+    height: 526px;
+    padding-top: 115px;
+}
+.contactenos-card-tag{
+    width: 50%;
+    height: 298px;
+    background: #002E60;
+    font-family: "Palanquin Dark", Sans-serif;
+    color: white;
+    padding-left: 71px;
+    padding-top: 51px;
+    font-size: 64px;
+}
+.no-border{
+    border: none;
+    background: #fff!important;
+    height: 54px!important;
+}
+.formulario {
+    background: #002E60;
+    border-radius: 8px;
+    min-height: 423px;
+    color: #fff;
+}
+.input1{
+    margin-left: 85px;
+}
+.input2{
+    margin-left: -10px;
+}
+.input3{
+    margin-left: 85px;
+    padding-top: 48px;
+}
+.btn-formulario{
+    height: 60px;
+    width: 170px;
+    background: #FBB307;
+    border-radius: 35px;
+    margin-left: 282px;
+    margin-top: 30px;
+    border: none;
+    font-family: "Palanquin Dark", Sans-serif;
+    font-size: 24px;
+}
+.formulario-title{
+    margin-left: 151px;
+    margin-top: 21px;
+}
+.title-contacto{
+    color: #002E60;
+}
+.contacto-card-amarillo{
+    height: 160px;
+    background: #FBB307;
+}
+.contacto-card-amarillo-title{
+    font-family: "Palanquin Dark", Sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 33px;
+}
+.contacto-card-amarillo-text{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.informativo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #002E60;
+}
+.btn-formulario.infor{
+    margin-left: 188px;
+    background: #002E60;
+}
+footer{
+    background: #FBB307;
+}
+.logo-footer{
+    width: 185px;
+    margin-left: 200px;
+}
+.list-unstyled a{
+    color: #002E60!important;
+}
+.RRSS{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #002E60;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #023974;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    width: 59px;
+  }
+  
+  #myBtn:hover {
+    background-color: #976b03;
+  }
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    .logo{
+        width: 60px;
+        margin-left: 10px;
+    }
+    .header-img{
+        margin-top: 10px;
+        width: 90%;
+    }
+    .title-usjc{
+        font-size: 20px;
+        margin: 3% 5%;
+    }
+    .divider{
+    width: 35%;
+    height: 4px;
+    margin-top: -1px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    }
+    .icon-card {
+        margin-top: 9px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .titles {
+        font-size: 28px;
+    }
+    .divider-title-carreras {
+        width: 55%;
+        height: 4px;
+        margin-bottom: 35px;
+    }
+    .card-container {
+        margin-bottom: 10px;
+    }
+    .mb-sm{
+        margin-bottom: 10px!important;
+    }
+    .w-sm-100{
+        width: 100%!important;
+    }
+    .title-card {
+        margin-top: 0px!important;
+    }
+    .mt-sm-1{
+        margin-top: 20px!important;
+    }
+    .mb-sm-1{
+        margin-bottom: 20px;
+    }
+    .parallax {
+        height: 100%;
+    }
+    .overlayimageparallax{
+        height: 100%;
+    }
+    .bg-azul {
+        margin-top: 37px;
+    }
+    .card-blanca-icon {
+        margin-left: 204px;
+        margin-top: -66px;
+    }
+    .pt-sm {
+        padding-top: 0!important;
+    }
+    .mt-sm-2{
+        margin-top: -20px!important;
+    }
+    .mt-sm-1_5{
+        margin-bottom: 0px;
+    }
+    .mb-sm-1_5 {
+        margin-bottom: 45px;
+    }
+    .p-none{
+        padding: 0 23px!important;
+    }
+    .historia-contenedor{
+        width: 90%;
+        margin-top: 27px!important;
+      }
+      .mt-sm-rector{
+        margin-top: 25px!important;
+        margin-left: 10px;
+      }
+      .foto-rector img{
+        width: 90%;
+        margin-top: 15px;
+    }
+    .titles{
+        font-size:  16px;
+    }
+    .contactenos-card-tag {
+        padding-left: 13px;
+        padding-top: 107px;
+        font-size: 17px;
+    }
+    .input1{
+        margin: auto;
+    }
+    .input2{
+        margin: auto;
+    }
+    .input3{
+        margin: auto;
+        padding-top: 48px;
+    }
+    .formulario-title{
+       margin: 0;
+        font-size: 24px;
+    }
+    .formulario-title div{
+text-align: center;
+    }
+    .btn-formulario{
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .btn-sm-container{
+        text-align: center;
+    }
+    .contacto-card-amarillo {
+        margin: 39px 0;
+    }
+    .btn-formulario_infor{
+        text-align: center;
+    }
+    .btn-formulario.infor{
+       margin-left: 0;
+    }
+    .card-carrera-button {
+        width: 100%;
+    }
+    .text-sm-center{
+        text-align: center;
+    }
+    .logo-footer {
+        margin-left: 0;
+    }
+  }
